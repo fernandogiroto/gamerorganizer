@@ -50,6 +50,11 @@ const router = createRouter({
           name: 'reports',
           component: () => import('@/views/ReportsView.vue'),
         },
+        {
+          path: 'djerba',
+          name: 'djerba',
+          component: () => import('@/views/DjerbaChecklistView.vue'),
+        },
       ],
     },
   ],
